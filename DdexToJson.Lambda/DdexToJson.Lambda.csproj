@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>DdexToJson.Lambda</AssemblyName>
+    <PackageId>DdexToJson.Lambda</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="*"/>
+    <PackageReference Include="Amazon.Lambda.Core" Version="*"/>
+    <PackageReference Include="Amazon.Lambda.S3Events" Version="*"/>
+    <PackageReference Include="AWSSDK.Core" Version="*"/>
+    <PackageReference Include="System.Xml.XDocument" Version="*"/>
+    <PackageReference Include="System.Xml.ReaderWriter" Version="*"/>
+    <PackageReference Include="XmlReader" Version="*"/>
+  </ItemGroup>
+</Project>
